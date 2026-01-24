@@ -1,4 +1,4 @@
-#  NTK-A
+#  SPSR
 
 Official PyTorch implementation of [SPSR: Achieving Superior Large Language Model Layer Pruning Performance by Super-fast Recovery]().
 
