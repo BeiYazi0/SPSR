@@ -1,6 +1,6 @@
 #  SPSR
 
-Official PyTorch implementation of [SPSR: Achieving Superior Large Language Model Layer Pruning Performance by Super-fast Recovery]().
+Official PyTorch implementation of [SPSR: Achieving Superior Large Language Model Layer Pruning Performance by Super-fast Recovery](https://openreview.net/forum?id=zBswcgygZh).
 
 
 ## Results
