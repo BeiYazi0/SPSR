@@ -127,3 +127,24 @@ Zero-shot tasks is evaluated on the [lm-evaluation-harness](https://github.com/E
 
 
 ### Citation
+@inproceedings{yang-etal-2026-spsr,
+    title = "{SPSR}: Achieving Superior Large Language Model Layer Pruning Performance by Super-fast Recovery",
+    author = "Yang, Zhiguo  and
+      Deng, Changjian  and
+      Chen, Qinke  and
+      Zhou, Zijing  and
+      Cheng, Jian",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1057/",
+    pages = "22378--22398",
+    ISBN = "979-8-89176-462-0",
+    abstract = "Layer pruning aims to accelerate the inference of Large Language Models on general hardware by removing less important Transformer layers. However, naively deleting layers typically degrades model performance. To reduce this degradation, prior work approximates removed layers with replacement components such as linear layers. These approaches often require large datasets and heavy replacement modules, which increase computational and memory costs. Their time complexity also restricts them to static, consecutive-layer pruning. In this work, we introduce a novel method, Superior layer Pruning performance by Super-fast Recovery (SPSR), which uses Pearson correlation coefficients to quantify a layer{'}s recovery ability and applies a super-fast fine-tuning procedure with a lightweight replacement component. SPSR readily extends to non-consecutive pruning and to dynamic pruning. Experimental results show that SPSR achieves performance competitive with state-of-the-art methods while substantially improving recovery efficiency."
+}
